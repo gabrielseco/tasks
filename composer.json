@@ -1,0 +1,9 @@
+{"require":{
+<<<<<<< HEAD
+        "nesbot/carbon": "~1.14"
+    }
+=======
+  "silex/silex": "1.1"
+  }
+>>>>>>> db14e5a51aadd957dc46d7d8c0bacc37359f4f13
+}

@@ -1,0 +1,18 @@
+//$db->query("INSERT INTO users (name,password) values ('hugo','1234')");
+
+//$user = $db->get_row("SELECT * FROM users WHERE id=4");
+
+//echo $user->name;
+//echo $user->password;
+
+//  $var = $db->get_var("SELECT count(*) FROM users");
+
+//  echo $var;
+
+
+//$results = $db->get_results("SELECT * FROM users");
+
+/*foreach($results as $user){
+echo $user->name;
+echo $user->password;
+}*/

@@ -1,0 +1,46 @@
+.body{
+  display:flex;
+  flex-direction:column;
+  max-width:800px;
+  margin:0 auto;
+  padding:20px;
+}
+
+div.input-group {
+    display: flex;
+    flex-direction:column;
+}
+div.button-group{
+  display:flex;
+  flex-direction:column;
+
+}
+
+label {
+    white-space: nowrap;
+}
+
+input,select{
+  border-bottom:10px;
+}
+
+input {
+    display: inline-block; // for safari
+    flex: 1;
+}
+select{
+      display: inline-block; // for safari
+      flex: 1;
+      line-height:100px;
+      -webkit-select-appearance: none;
+}
+
+
+
+.submit__edit{
+  @include  button__bg($width:inherit,$back:#0B5CAD !important);
+}
+
+.remove__button{
+  @include  button__bg($width:inherit);
+}
