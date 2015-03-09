@@ -1,6 +1,11 @@
 (function() {
   "use strict";
 
+  var subject = document.getElementById('subject');
+
+  subject.focus();
+
+
   var currentdate = new Date();
 
   var hours   = currentdate.getHours();
@@ -23,4 +28,20 @@
 
   timeFrom.value = datetime;
   timeTo.value   = datetime;
+
+  var form = document.getElementById('timetableForm');
+
+  form.addEventListener('submit',function(evt){
+      evt.preventDefault();
+
+      if(subject.value === ''){
+        subject.className = "redBorder";
+        var left = 0;
+        var top  = 0;
+        window.scrollTo(left,top);
+      }
+      else{
+        form.submit();
+      }
+  });
 }());

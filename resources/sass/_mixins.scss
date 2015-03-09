@@ -61,6 +61,19 @@
   margin-bottom:$margin;
 }
 
+@mixin textarea_reset($border__color:#d7d7d7,$height:50px,$margin:10px){
+  box-sizing:border-box;
+  border:1px solid $border__color;
+  width:100%;
+  background-color:#fff;
+  font-size:1.125em;
+  padding:0 16px;
+  border-radius:4px;
+  height:$height;
+  display:block;
+  margin-bottom:$margin;
+}
+
 @mixin button__bg($width:100%,$back:#ed403a,$display:block){
   display:$display;
   width:$width;

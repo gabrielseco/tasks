@@ -293,7 +293,7 @@ form {
     font-size: 1.125rem;
     font-weight: 400;
     display: inline-block; }
-  form input, form textarea, form select {
+  form input, form select {
     box-sizing: border-box;
     border: 1px solid #d7d7d7;
     width: 100%;
@@ -303,6 +303,17 @@ form {
     border-radius: 4px;
     height: 50px;
     line-height: 50px;
+    display: block;
+    margin-bottom: 10px; }
+  form textarea {
+    box-sizing: border-box;
+    border: 1px solid #d7d7d7;
+    width: 100%;
+    background-color: #fff;
+    font-size: 1.125em;
+    padding: 0 16px;
+    border-radius: 4px;
+    height: 50px;
     display: block;
     margin-bottom: 10px; }
   form input[type=time]::-webkit-inner-spin-button, form input[type=time]::-webkit-outer-spin-button {

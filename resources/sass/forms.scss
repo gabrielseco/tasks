@@ -11,8 +11,12 @@ form{
     display:inline-block;
   }
 
-  input,textarea,select{
+  input,select{
     @include input__reset();
+  }
+
+  textarea{
+    @include textarea_reset();
   }
 
   input[type=time]::-webkit-inner-spin-button,
